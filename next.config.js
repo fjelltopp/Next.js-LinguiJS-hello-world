@@ -1,10 +1,8 @@
+const localesConfig = require('./locales/config');
 
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
-    locales: ['en', 'fr', 'pt'],
-    defaultLocale: 'en',
-  },
+  ...localesConfig,
 }
 
 module.exports = nextConfig
