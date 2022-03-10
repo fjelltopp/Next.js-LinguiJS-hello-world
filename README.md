@@ -1,1 +1,2 @@
-# Next.js-LinguiJS-hello-world
+# Next.js LinguiJS hello-world
+
