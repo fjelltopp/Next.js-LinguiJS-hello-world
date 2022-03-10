@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { t } from '@lingui/macro';
 import { Trans } from '@lingui/react';
+import LocaleSelector from '../components/LocaleSelector';
 
 export default function Home() {
 
@@ -19,6 +20,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+        <LocaleSelector />
+
         <h1 className={styles.title}>
           <Trans
             id="Welcome to <0>LinkToNextJs</0>"
